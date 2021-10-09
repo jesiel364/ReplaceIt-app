@@ -54,7 +54,7 @@ function REplace(){
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a style="font-family: 'Grenze Gotisch', cursive, sans-serif;" class="navbar-brand" href="https://jesiel364.github.io/ReplaceIt-app"/>replace.it</a>
+    <a style="font-family: 'Grenze Gotisch', cursive, sans-serif;" class="navbar-brand" href="https://jesiel364.github.io/ReplaceIt-app"/>Replace.it</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -91,13 +91,13 @@ manga, banana, laranja, ameixa"></textarea>
 </div>
 
 <div class="mb-3">
-  <label for="char" class="form-label">Caractere(s) a ser substituido(s)</label>
-  <input type="text" class="form-control" id="char" placeholder="Campo A *Deixe este campo vazio para nulo.">
+  <label for="char" class="form-label">Caractere(s) a ser substituido</label>
+  <input type="text" class="form-control" id="char" placeholder="*Deixe este campo vazio para nulo.">
 </div>
 
 <div class="mb-3">
   <label for="new_char" class="form-label">Novo(s) Caractere(s)</label>
-  <input type="text" class="form-control" id="new_char" placeholder="*Campo B *Deixe este campo vazio para nulo.">
+  <input type="text" class="form-control" id="new_char" placeholder="*Deixe este campo vazio para nulo.">
 </div>
 
 <button onclick="REplace()" type="button" class="btn btn-success mt-2">Substituir</button>
