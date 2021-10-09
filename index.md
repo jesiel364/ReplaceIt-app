@@ -50,6 +50,9 @@ function REplace(){
   body{
     font-family: 'Josefin Sans', sans-serif;"
   }
+  #res{
+    font-family: 'Grenze Gotisch'
+}
 </style>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
