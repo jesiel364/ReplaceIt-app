@@ -54,7 +54,7 @@ function REplace(){
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a style="font-family: 'Grenze Gotisch', cursive, sans-serif;" class="navbar-brand" href="#">replace.it</a>
+    <a style="font-family: 'Grenze Gotisch', cursive, sans-serif;" class="navbar-brand" href="https://jesiel364.github.io/ReplaceIt-app"/>replace.it</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
