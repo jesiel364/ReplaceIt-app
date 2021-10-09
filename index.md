@@ -7,17 +7,17 @@
     <title>Replace.it</title>
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 <script>function replace(){
-		txt = document.querySelector('textarea#txt').value
-		char = document.querySelector('input#char').value
-		new_char = document.querySelector('input#new_char').value
-		res = document.querySelector('div#res')
-		
-		new_text = txt.replace(char, new_char)
-		res.innerText = new_text
-	}
+    txt = document.querySelector('textarea#txt').value
+    char = document.querySelector('input#char').value
+    new_char = document.querySelector('input#new_char').value
+    res = document.querySelector('div#res')
+    
+    new_text = txt.replace(char, new_char)
+    res.innerText = new_text
+  }
 </script>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Replace.It</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,19 +26,20 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="https://github.com/jesiel364/Replace.it">Doc</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/jesiel364/">Contato</a>
         </li>
         
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
       </ul>
       <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <input class="form-control me-2" type="search" placeholder="Digite algo" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
       </form>
     </div>
   </div>
@@ -47,7 +48,7 @@
     <div class="container mt-4">
 
     <h1>Substituidor de Caracteres</h1>
-    	
+      
 <div class="mb-3">
   <label for="txt" class="form-label">Texto</label>
   <textarea class="form-control" id="txt" rows="3" placeholder="Nessa lista que eu vou te mostrar
@@ -73,7 +74,7 @@ Aqui tem uva, caju, melancia, tem fruta-do-conde, maçã, kiwi."></textarea>
   <div id="res" class="card-body">
     <p>‟Nessa lista que eu vou te mostrar</p> 
     <p>Aqui tem manga, abacate, laranja, ameixa, goiaba, pera e abacaxi</p>
-	<p>Aqui tem uva, caju, melancia, tem fruta-do-conde, maçã, kiwi.”</p>
+  <p>Aqui tem uva, caju, melancia, tem fruta-do-conde, maçã, kiwi.”</p>
 </p>
   </div>
 </div>
